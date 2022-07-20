@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   
   spec.description  = "This KYC SDK involves steps to establish customer identity thorough liveness detection."
 
-  spec.homepage     = "https://github.com/mncinnovation/mnc-identifiersdk-ios"
+  spec.homepage     = "https://github.com/iksandecade/mnc-identifier-ios"
 
   spec.license      =  { :type => "Apache License, Version 2.0", :file => "LICENSE" }
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source       = { :git => "https://github.com/mncinnovation/mnc-identifiersdk-ios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/iksandecade/mnc-identifier-ios", :tag => "#{spec.version}" }
 
   spec.framework  = "UIKit"
   
